@@ -1,2 +1,2 @@
-# Ensure Homebrew can be found
-eval "$(homebrew/bin/brew shellenv)"
+# Add Homebrew to the path
+export PATH="$(brew --prefix)/bin:$PATH"
