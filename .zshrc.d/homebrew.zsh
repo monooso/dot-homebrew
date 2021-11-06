@@ -1,2 +1,2 @@
 # Add Homebrew to the path
-export PATH="$(brew --prefix)/bin:$PATH"
+eval "$(/opt/homebrew/bin/brew shellenv)"
